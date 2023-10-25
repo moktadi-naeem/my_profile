@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/2b04912ecd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo1.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello,I am <span>Tadbir Naeem,</span></h1>
+
+                <p>Web Developer & SEO Expert.</p>
+                <h2><span>Welcome!!</span> <br>to my portfolio <i class="fa-solid fa-heart"></i> </h2>
+               
+            </div>
+        </div>
+    </div>
+
+
+
+<!----------about--------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/about.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>currently i'm 22 years old.Completing my BSc in CSE from DIU.I'm experienced in c,html,css,java. <br>Now-a-days im trying to make website.whatever im just a beginner and still learning . <br>Here is my skills,experience and educational qualifications.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Beginner</span><br>at Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>through java-script,html,css,php</li>
+                            <li><span>App Development</span><br>Building android/ios app</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-current</span><br>building app training at Gk's farm</li>
+                            <li><span>2021-2022</span><br>Team Leader at brocode LLC.</li>
+                            <li><span>2019-2021</span><br>Internship at Bioship_Agency</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>training at knowledge_Valley</li>
+                            <li><span>2018</span><br>BSC in CSE from Daffodil international University</li>
+                            <li><span>MSC</span><br>Not Yet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!----------services---------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>We will provide you the best design of your product </p>
+                <a href="#">Learn More..</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-connectdevelop"></i>
+                <h2>Web Development</h2>
+                <p>We will provide you the best design of your product </p>
+                <a href="#">Learn More..</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Making</h2>
+                <p>We will provide you the best design of your product </p>
+                <a href="#">Learn More..</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-----------portfolio--------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/social-media-ios-app-development.webp" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects you to the talented people</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="img/workl.png" >
+                <div class="layer">
+                    <h3>Online Shoping Website</h3>
+                    <p>Easy to use and simple looking website</p>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></i></a>
+                       
+                
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="img/ios-16-music-listen-now-account-profile.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app connects you to the talented people</p>
+                    <a href="#"><i class="fa-solid fa-music"></i></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<!--------Contact----->
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>naeemhasan1997153@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>01958205912</p>
+
+
+                <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="img/beautiful.avif" download class="btn btn2">Download CV</a>
+            
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+               </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Tadbir.Made with<i class="fa-solid fa-heart"></i> by Cowboy</p>
+    </div>
+</div>
+
+
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+    
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+var sidemenu=document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+
+    </script>
+    
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxV0VUR7BPjbqHDd2NRDwcTB-hSc5RXTPXCkmR0Wsrs7X0pxM4xx6VQPD6M1BvWFgI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
