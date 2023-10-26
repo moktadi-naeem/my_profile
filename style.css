@@ -47,6 +47,7 @@ nav ul li{
     height: 15vh;
     
 }
+
 nav i{
     display: inline-block;
     list-style: none;
@@ -453,27 +454,46 @@ nav.fas{
 
 
 nav ul{
-    background: #ff004f;
+    background:#ff004f;
     position: fixed;
-    top: 0;
-    right: -200px;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
+    top:-200px;
+    left: 0;
+    width: 300%;
+    height: 5vh;
+    padding-top: 5px;
     z-index: 2;
-    transition: right 0.5s;
+    transition: top 0.5s;
+    
 }
 
 nav ul li{
-    display: block;
-margin: 25px;
+    display: inline block;
+    margin: 7px 5px;
+    padding-left: 8.5px;
+    
+    font-size: 8px; 
 
 }
-nav ul i{
+nav i{
+    height: 10vh;
+   
+}
+
+
+nav ul g{
+    background: #ff004f;
     position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
+    height: 3.5vh;
+    width: 43px;
+    top: 30px;
+    left: -9.5px;
+   
+    
+}
+nav ul g i{
+    padding: 6px;
+    margin: 5px 12px;
+    
 }
 
 .sub-title{
@@ -490,7 +510,7 @@ nav ul i{
 }
 
 .about-col-2{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .contact-left, .contact-right{
